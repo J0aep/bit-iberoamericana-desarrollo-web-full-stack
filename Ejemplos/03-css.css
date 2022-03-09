@@ -1,0 +1,20 @@
+div{
+    background-color: blue;
+}
+/*selectores*/
+* {
+    color: red;
+}
+/*lcon el asterizco hace que a todas las etiquetas se les aplque el cambio (selector universal)*/
+/*selector de tipo*/ /*importante como no tiene la palabra "background" ps solo se le aplica a las letras, no al fondo*/
+div {
+    color: orange;
+}
+/*Selector de clase*/ /*para distinguir por ejemplo dos div le pongo una clase para que tengan colores distintos por ejemplo*/
+.Amarillo {
+    color: yellow;
+}
+/*Selector de id*/ /*es lo mismo que lo de las clases pero las clases se pueden repetir pero los id no*/
+#Morado {
+    color: blueviolet;
+}
