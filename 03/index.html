@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--con lo de <!DOCTYPE html> es como debe empezar siempre un archivo html-->
+<html lang="en">
+    <!--las etiquetas de apertura no tienen nada y las de cierre tienen "/"-->
+    <!--ese "lang="en"" es un atributo que puede tener una etiqueta en este caso indica en que idioma voy a hacer mi pagina web-->
+    <!--con esas etiquetas lo que hacemos es ayudar al navegador para que nos indexe mejor-->
+    <head>
+        <!--head es lo que le interesa a los motores de busqueda, y lo visible para el cleinte puede ser por ejemplo title-->
+        <title>Home gym</title>  
+        <link rel="stylesheet" href="./styles.css">
+        <!--el link es para unir mi html con css-->
+        <!--al principio nos sale así: <link rel="stylesheet" href="style.css">, pero tenemos que colocarle "CSS/style.css" para guiar a la maquina pues-->
+    </head>
+    <!--una forma de integrar el css en codigo html puede ser por ejemplo: <body style="background-color: cornflowerblue;">-->
+    <body>
+        <header class="main-header">
+            <div>Home gym</div>
+        </header>
+        <!--body es lo que van a ver las personas que entrena mi pagina-->
+        <main role="main" class="main">
+            <!--eso de "role="main"" es una buena practica para que el navegador sepa que eso es lo principal-->
+        <h1>Reject modernity, embarce masculinity, embarace strength</h1>
+        <h2>Be the one</h2>
+        <hr/> 
+        <p>here, you will find some help for you to train in the comfort of your home</p>
+        <!--si uno tiene un parra que no tiene data pa poner ahi escribir "lorem" y el editor pone un texto generico para guiarse uno visualmente-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo, iusto eveniet, corrupti aperiam ducimus mollitia sint ab voluptas cupiditate repudiandae eos qui earum, eaque eum. Repudiandae nesciunt maiores voluptatem?</p>
+        <!--importante, todas estas etiquetas son para el buen posicionamiento de mi pagina, son como las normas APA de internet-->
+        <figure>
+            <img src="./Best muscles.png" alt="Human muscles">
+            <figcaption>This could help you know the muscle you want to train</figcaption>
+        </figure>
+    </main>
+        <div>Start data</div>
+        <form>
+            <label>
+                Weight in kg
+                <input type="number">
+            </label>
+            <label>
+                Height in cm
+                <input type="number">
+            </label>
+            <button>Send results</button>
+        </form>
+    </body>
+</html>
