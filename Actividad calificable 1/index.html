@@ -1,34 +1,221 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Futbol Colombia</title>
+        <title>Fútbol Colombia</title>
         <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="./imagenes/Balon-de-la-sele.ico">
     </head>
      <body style="background-color: #f3f1d1;">
-         <main>
-         <header role="header" class="header">Colombia en el futbol</header>
+         <header role="header" class="header">
+            <nav class="nav">
+                <a href="#" class="logo nav-link">Colombia en el fútbol</a>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                  <li class="nav-menu-item">
+                    <a href="#players" class="nav-menu-link nav-link">Jugadores</a>
+                  </li>
+                  <li class="nav-menu-item">
+                    <a href="#teams" class="nav-menu-link nav-link">Equipos</a>
+                  </li>
+                  <li class="nav-menu-item">
+                    <a href="#worldcups" class="nav-menu-link nav-link">Copas del mundo</a>
+                  </li>
+                </ul>
+              </nav> 
+            </header>
+            <main>
+        <figure class="intro">
          <h1>Introduccion</h1>
-         <p>El fútbol o balompié en Colombia es el deporte más popular del país. Esto se debe en buena parte al gran cubrimiento mediático, a la popularidad de sus principales equipos, con participaciones en torneos internacionales logrando títulos como la Copa Libertadores de América, y a las apariciones incesantes de talentosos futbolistas que llevaron a la Selección Colombia a seis mundiales. Su desarrollo futbolístico lo sitúa en la segunda línea mundial histórica</p>
+         <p>El fútbol o balompié en Colombia es el deporte más popular del país. Esto se debe en buena parte al gran cubrimiento mediático, a la popularidad de sus principales equipos, con participaciones en torneos internacionales logrando títulos como la Copa Libertadores de América, y a las apariciones incesantes de talentosos futbolistas que llevaron a la Selección Colombia a seis mundiales. Su desarrollo futbolístico lo sitúa en la segunda línea mundial histórica.</p>
          <p>Su máximo logro internacional fue el título obtenido en la Copa América 2001 realizada en Colombia (siendo campeón invicto durante todos los partidos del campeonato y sin recibir goles en contra). Gracias a ello, el equipo disputó la Copa FIFA Confederaciones 2003 ocupando el cuarto lugar, haciendo una buena participación frente los mejores de cada confederación en ese entonces.</p>
-         </main>
+         </figure>
+         <section class="players" id="players">
          <h2 role="doc-subtitle" class="part1">Jugadores mas relevantes</h2>
          <figure role="doc-part" class="jug1">
-         <img src"" alt="Radamel Falcao">
-         <p>Radamel Falcao, juega de delantero centro, creo que es de los mas influyentes jugadores en la historia del futbol de colombia por no decir el mas influyente, pues ha sido referente en los equipos por lo que ha pasado, ha gando dos veces la europa league y en esas dos ocaciones ha sido maximo goleador del torneo, ha sido parte del equipo de la temporada en la temporada 12/13</p>
+         <img src="./imagenes/Falcao.webp" alt="Radamel Falcao" class="img1">
+         <h3>Radamel Falcao</h3>
+         <p>Radamel Falcao, juega de delantero centro, creo que es de los mas influyentes jugadores en la historia del fútbol de colombia por no decir el mas influyente, pues ha sido referente en los equipos por lo que ha pasado, ha gando dos veces la europa league y en esas dos ocaciones ha sido maximo goleador del torneo, ha sido parte del equipo de la temporada en la temporada 12/13.</p>
+         <p>Es el jugador que más goles ha anotado en una sola temporada de un torneo europeo, con diecisiete goles. Este récord lo comparte con Cristiano Ronaldo, quien marcó diecisiete goles durante la Liga de Campeones de la UEFA 2013-14. Tal récord lo logró con el F. C. Porto en la Liga Europea de la UEFA durante la temporada 2010-2011.</p>
          </figure>
         <figure role="doc-part" class="jug2">
-            <img src="" alt="Carlos Valderrama">
+            <img src="./imagenes/El pibe.webp" alt="Carlos Valderrama">
+            <h3>Carlos Valderrama</h3>
             <p>Carlos Alberto Valderrama Palacio (Santa Marta, Magdalena, 2 de septiembre de 1961), conocido popularmente como El Pibe Valderrama, es un exfutbolista colombiano que jugaba de mediocentro ofensivo.</p>
             <p>Valderrama fue un volante de muy buena técnica, participó en los mundiales de Italia 1990, Estados Unidos 1994 y Francia 1998. Fue incluido como miembro FIFA 100 por Pelé y ocupa el 39.º lugar en el ranking del mejor jugador sudamericano del Siglo XX publicado por la IFFHS en 2004.</p>     
         </figure>
-        <figure role="doc-part" class="jug1">
-            <img src="" alt="James Rodriguez">
-            <p>James Rodriguez, juega de mediocentro ofencivo, está en esta lista por lo que ha logrado en clubes y en la seleccion, empezando por sus inicios que ganó la europa league con el porto, dos veces campéon de la bundesliga, dos veces campeon del mundial de clubes con el real madrid(uno de los pocos colombianos en jugar para el real madrid) y dos veces campeon del torneo mas importante de clubes, la champions league tambien con el real madrid(de los unicos colombianos que han conquistado el titulo)</p>
+        <figure role="doc-part" class="jug3">
+            <img src="./imagenes/Rodriguez.webp" alt="James Rodriguez">
+            <h3>James Rodriguez</h3>
+            <p>James Rodriguez, juega de mediocentro ofencivo, está en esta lista por lo que ha logrado en clubes y en la seleccion, empezando por sus inicios que ganó la europa league con el porto, dos veces campéon de la bundesliga, dos veces campeon del mundial de clubes con el real madrid(uno de los pocos colombianos en jugar para el real madrid) y dos veces campeon del torneo mas importante de clubes, la champions league tambien con el real madrid(de los unicos colombianos que han conquistado el titulo).</p>
             <p>Con su seleccion es igual de memorable, debutó en mundiales en Brasil 2014, donde ganó el premio a mayor goleador, premio a mejor gol del mundial y mas tarde a mejor gol del mundo, aparte de que en ese mundial llevó a Colombia a su mejor particimpacion en mundiales dejandola en el puesto 5.</p>
         </figure>
-        <figure role="doc-part" class="jug2">
-            <img src="" alt="Ivan Ramiro Cordoba">
-            <p>Sus logros son que no se que</p>
+        <figure role="doc-part" class="jug4">
+            <img src="./imagenes/Ivan R Cordoba.webp" alt="Ivan Ramiro Córdoba">
+            <h3>Ivan Ramiro Córdoba</h3>
+            <p>Ivan entra en esta lista pues ha sido de los mas influyentes colombianos que han  jugado fútbol en la historia, empezando en sus clubes, donde su logro mas significativo fue ganar la champions league de la temporada 2009/2010, siendo el segundo capitan del Football Club Internazionale Milano.</p>
+            <p>La segunda razon para decir que Ivan merece estar aquí es porque el fue el capitan de la colombia que conquisto la copa america, el unico titulo de la seleccion a la fecha, y encima fue el, el que metió el gol de la final que quedó 1-0 contra la selccion de Mexico, en la copa america 2001 que se organizó en Colombia.</p>
         </figure>
+        <figure role="doc-part" class="jug5">
+            <img src="./imagenes/Ospina.webp" alt="David Ospina">
+            <h3>David Ospina</h3>
+            <p>Por ultimo y por supuesto no menos imporatante, el jugador con mas partidos disputados con la seleccion, David hizo parte de la seleccion que quedó quinta en el mundial de brasil, el lleva jugadas 4 eliminatorias a mundiales, y cuatro copas america de las cuales hemos quedado terceros en dos de ellas.</p>
+            <p>Este puesto estaba disputado con Óscar Córdoba, que junto al ya mencionado Ivan Ramiro Córdoba, ganaron la copa america de Colombia, aparte de ser muy influyente con su club Boca Juniors que hace parte del 11 historico del club en el cual gano 2 libertadores y dos copas intercontinentales.</p>
+        </figure>
+    </section>
+    <section class="teams" id="teams">
+        <h2 role="doc-subtitle" class="part2">Equipos mas importantes</h2>
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/Atl Nacional.png" alt="Escudo del equipo">
+            <h3>Atlético Nacional</h3>
+            <p>Es un club de fútbol de la ciudad de Medellín. Es el equipo más laureado del fútbol colombiano con 30 títulos oficiales entre cmapeonatos nacionales e internacionales y por ello se le denomina popularmente como <i>el Rey de Copas</i>.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x2 Copa libertadores</span></li>
+                <li><span class="icon-trophy"> x16 Copa Colombia</span></li>
+                <li><span class="icon-trophy"> x1 Recopa Sudamericana</span></li>
+            </ul>
+        </figure>
+        <hr size="4px" color="black" />
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/La mecha.png" alt="Escudo del equipo">
+            <h3>América de Cali</h3>
+            <p>El América de Cali mas conocido como América es un club de fútbol de la ciudad Cali. Es considerado uno de los clubes más grandes del pais, pues es de los mayores camperones de colombia con 18 titulos oficioles, aparte de haber ganado la liga ya 15 veces y en lo personal mi favorito.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x15 Copa Colombia</span></li>
+                <li><span class="icon-trophy"> x1 Copa Merconorte</span></li>
+            </ul>
+        </figure>
+        <hr size="4px" color="black" />
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/millos.png" alt="Escudo del equipo">
+            <h3>Millonarios FC</h3>
+            <p>Es un club de fútbol de la ciudad de Bogotá. Es de los mas importantes del pais y del continente, entre sus filas tuvo jugadores como Alfredo Di Stéfano, Adolfo Pedernera o Willington Ortiz, los cuales hacen parte de los mejores 20 de Sudamerica en el Siglo XX, y tambien por habeer ganado 15 veces la liga.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x15 Copa Colombia</span></li>
+                <li><span class="icon-trophy"> x1 Copa Merconorte</span></li>
+            </ul>
+        </figure>
+        <hr size="4px" color="black" />
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/junior de barranquilla.png" alt="Escudo del equipo">
+            <h3>Junior de Barranquilla</h3>
+            <p>Es un club de fútbol de la ciudad de Barranquilla como su nombre indica. Ha sido 9 veces campeon de Colombia, subcampeón de la Copa Sudamericana y semifinalista de la Libertadores.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x9 Copa Colombia</span></li>
+            </ul>
+        </figure>
+        <hr size="4px" color="black" />
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/santa fe.png" alt="Escudo del equipo">
+            <h3>Independiente Santa Fe</h3>
+            <p>Es un club de fútbol de la ciudad de Bogotá (mejor conocido como Santa Fe en honor al antiguo nombre de la capital). Fue el primer campeo del futbol colombiano y el unico equipo colombiano ganador de la copa Sudamericana.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x1 Copa Sudamericana</span></li>
+                <li><span class="icon-trophy"> x9 Copa Colombia</span></li>
+            </ul>
+        </figure>
+        <h3 role="doc-subtitle" class="part25">Mención honorífica</h3>
+        <figure role="doc-part" class="team">
+            <img src="./imagenes/once caldas.png" alt="Escudo del equipo">
+            <h3>Once Caldas</h3>
+            <p>Es un club de fútbol de la ciudad de Manizales. Este equipo mercia la mención honorífica porque a pesar de no haber ganado tantas veces la liga es el segundo equipo campeon de América, pues ganó la Libertadores en 2004.</p>
+            <h4>Títulos importantes:</h4>
+            <ul>
+                <li><span class="icon-trophy"> x1 Copa Libertadores</span></li>
+                <li><span class="icon-trophy"> x4 Copa Colombia</span></li>
+            </ul>
+        </figure>
+    </section>
+    <section class="worldcups" id="worldcups">
+        <h2 role="doc-subtitle" class="part3">Colombia en mundiales</h2>
+        <table class="table">
+            <tr class="tr">
+                <th class="th">Ronda de eliminacion</th>
+                <th class="th">Sede del muncial</th>
+                <th class="th">Ultimo resultado</th>
+            </tr>
+            <tr>
+                <td class="td">Fase de grupos</td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_Chile.svg.webp" alt="bandera de Chile">
+                    Chile-1962
+                </td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_the_Soviet_Union.svg.webp" alt="bandera de URSS">
+                    4:4
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td class="td">Octavos de final</td>
+                <td class="td">
+                    <img src="imagenes/20px-Flag_of_Italy.svg.webp" alt="bandera de Italia">
+                    Italia-1990
+                </td>
+                <td class="td">
+                    <img src="imagenes/20px-Flag_of_Cameroon.svg.webp" alt="bandera de Camerun">
+                    2:1
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td class="td">Fase de grupos</td>
+                <td class="td">
+                    <img src="imagenes/20px-Flag_of_the_United_States.svg.webp" alt="bandera de EEUU">
+                    EEUU-1994
+                </td>
+                <td class="td">
+                    <img src="imagenes/20px-Flag_of_Switzerland.svg.webp" alt="bandera de Suiza">
+                    0:2
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td class="td">Fase de grupos</td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_France_(1794–1815,_1830–1974,_2020–present).svg.webp" alt="bandera de Francia">
+                    Francia-1998
+                </td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_England.svg.webp" alt="bandera de Inglaterra">
+                    2:0
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td class="td">Cuartos de final</td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_Brazil.svg.webp" alt="bandera de Brasil">
+                    Brasil-2014
+                </td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_Brazil.svg.webp" alt="bandera de Brasil">
+                    2:1
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td class="td">Octavos de final</td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_Russia.svg.webp" alt="bandera de Rusia">
+                    Rusia-2018
+                </td>
+                <td class="td">
+                    <img src="imagenes/Flag_of_England.svg.webp" alt="bandera de Inglaterra">
+                    1:1 (4:3)
+                    <img src="imagenes/Flag_of_Colombia.svg.webp" alt="bandera de Colombia">
+                </td>
+            </tr>
+        </table>
+    </section>
+</main>
      </body>     
 </html>
