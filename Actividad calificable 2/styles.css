@@ -1,0 +1,200 @@
+.img1{
+    height: 165px;
+    width: 350px;
+    position: relative;
+    top: 93px;
+    left: 80px;
+}
+.img2{
+    height: 165px;
+    width: 350px;
+    position: relative;
+    top: -93px;
+    left: -274px;
+}
+.img3{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: -250px;
+}
+.img4{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 840px;
+    top: -350px;
+}
+.divisor1{
+    color: #3f57a7;
+    position: relative;
+    top: -200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.mision{
+    position: relative;
+    left: 245px;
+    top: -145px;
+    width: 300px;
+    text-align: center;
+}
+.vision{
+    position: relative;
+    left: 745px;
+    top: -400px;
+    width: 300px;
+    text-align: center;
+}
+.p-vision{
+    text-align: justify;
+    font-size: large;
+    font-family: Pkmn-lil;
+}
+.p-mision{
+    text-align: justify;
+    font-size: large;
+    font-family: Pkmn-lil;
+}
+.formulario{
+    margin: 300px;
+}
+.img-fluid{
+    width: 100%;
+    height: 400px;
+}
+.p-ventajas{
+    text-align: justify;
+    font-family: Pkmn-lil;
+    font-size: large;
+}
+.divisor2{
+    position: relative;
+    top: -300px;
+}
+.ventajas{
+    position: relative;
+    top: -200px;
+    left: 300px;
+    width: 700px;
+}
+@font-face {
+    font-family:Pokemon;
+    src: url(./PokemonSolid.ttf);
+}
+.titulo1{
+    font-family:Pokemon;
+    color: #ffcc03;
+    -webkit-text-stroke: 2px #3f57a7;
+}
+.titulo2{
+    font-family:Pokemon;
+    color: #ffcc03;
+    -webkit-text-stroke: 2px #3f57a7;
+}
+.titulo3{
+    font-family:Pokemon;
+    color: #ffcc03;
+    -webkit-text-stroke: 2px #3f57a7;
+}
+.box-n{
+    font-family: Pokemon;
+    color: white;
+}
+.d-block{
+    height: 500px;
+}
+@font-face {
+    font-family:Pkmn-lil;
+    src: url(./Pokemon\ Classic.ttf);
+}
+.btn{
+    position: relative;
+    left: 170px;
+    top: -100px;
+    font-family: Pkmn-lil;
+   }
+.nav-link{
+    font-family: Pkmn-lil;
+    font-size: small;
+}
+.box-p{
+    font-family: Pkmn-lil;
+    font-size: small;
+}
+.divisor{
+    color: #ffcc03;
+}
+.divisor2{
+    color: #ffcc03;
+}

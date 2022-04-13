@@ -1,0 +1,46 @@
+@font-face {
+    font-family:Pokemon;
+    src: url(./PokemonSolid.ttf);
+}
+.pkmn-1{
+    width: 300px;
+    float: left;
+    margin: 7px
+}
+.card-img-top{
+    height: 300px;
+}
+.modal-title{
+    font-family:Pokemon;
+    color: #ffcc03;
+    -webkit-text-stroke: 1px #3f57a7;
+}
+@font-face {
+    font-family:Pkmn-lil;
+    src: url(./Pokemon\ Classic.ttf);
+}
+.btn{
+    font-family: Pkmn-lil;
+    font-size: small;
+}
+.card-text{
+    font-family: Pkmn-lil;
+    font-size: small;
+}
+.nav-link{
+    font-family: Pkmn-lil;
+    font-size: small;
+}
+.card-title{
+    font-family:Pkmn-lil;
+    font-weight: bold;
+    font-size: medium;
+}
+.form-label{
+    font-family:Pkmn-lil;
+    font-size: small;
+}
+.form-check-label{
+    font-family:Pkmn-lil;
+    font-size: x-small;
+}
